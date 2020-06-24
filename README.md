@@ -1,19 +1,35 @@
-#Improved Anti-Noclip
+Joystick-Module
+===============
 
-###Author:
-	- Original  :: RabidToaster (STEAM_0:1:9334395)<br/>
-	- Rewritten :: Mista Tea    (STEAM_0:0:27507323)<br/>
-	
-###Changelog:  
-	- Jan 10th, 2017 :: Added to GitHub  
-	
-###Tweaks:  
-	- Added duplicator support (anti-noclip settings are saved across dupes, rather than having to reapply anti-noclip again).  
-	- Added ability to force the tooltip to always show, even when the anti-noclip tool isn't being used (useful for debugging) (tickbox).<br/>
-	- Added ability to show/hide notifications when creating/copying/removing anti-noclip controllers (tickbox).  
-	- Added ability to enable/disable playing notification sounds when creating/copying/removing anti-noclip controllers (tickbox).<br/>
-	- Added support for localization of every phrase in the tool menu and tooltip HUD (Localify module).  
-	- Added ability to change localization (combobox).
-	
-###Multi-language Support:  
-	- TODO: Ask for translations :)
+A [joystick module][ref-joymod] for GMod, made originally by [NightEagle][ref-author]
+
+The original [facepunch thread][ref-thread]
+
+Installation
+===============
+
+## Manually
+Merge the [`addons`][ref-addons] and [`lua`][ref-luabin] folders from this folder into your `garrysmod` folder.
+
+## Automatically
+
+#### Windows:
+  1. Clone the repository inside `..\garrysmod\addons`
+  2. Run the [`install.bat`][ref-winstall] installation script
+  3. Delete the [`clonned repository`][ref-repo] **_manually_** !
+  
+#### Linux
+  1. Clone the repository inside `../garrysmod/addons`
+  2. Right click in the cloned folder. `Open in therminal`
+  3. Run `sudo chmod +x install.sh` and write your password
+  4. Run the [`./install.sh`][ref-linstall] installation script
+  5. Auto-remove the clonned repository by anwering `y` or else for manual
+     
+[ref-repo]: https://github.com/MattJeanes/Joystick-Module
+[ref-winstall]: https://github.com/MattJeanes/Joystick-Module/blob/master/install.bat
+[ref-linstall]: https://github.com/MattJeanes/Joystick-Module/blob/master/install.sh
+[ref-thread]: https://web.archive.org/web/20160716031819/http://www.facepunch.com/showthread.php?t=403669
+[ref-author]: https://web.archive.org/web/20160613102022/http://facepunch.com/member.php?u=2853
+[ref-joymod]: https://components101.com/modules/joystick-module
+[ref-addons]: https://github.com/MattJeanes/Joystick-Module/tree/master/addons
+[ref-luabin]: https://github.com/MattJeanes/Joystick-Module/tree/master/lua
